@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.a1 {
+    background: black;
+    overflow: hidden;
+}
+
+.a2 {
+    border: 10px solid red;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+    background: green;
+}
+
+.b1 {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+}
+
+.b2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    z-index: 10;
+}
+
+.b3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    z-index: 5;
+}
+
+/* div {
+    background-color: green;
+    box-shadow: 10px 10px 50px red;
+
+} */
+
+.c1 {
+    background: red;
+    line-height: 50px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.c2 {
+    background: green;
+    width: 100px;
+    float: right;
+}
+
+.c3 {
+    float: left;
+    width: 600px;
+    background: pink;    
+}
+
+table {
+    table-layout: fixed;
+}
+
+table td {
+    border: 10px solid red;
+}
+
+/* div {
+
+    background: red;
+    display: inline-block;
+
+    /* height: 100px;
+    transition: .9s; */
+
+    /* text-shadow: 2px 2px 3px rebeccapurple;
+    font-size: 16px;
+    line-height: 24px; 
+
+} */
+
+
+
+
+/* div {
+    
+    
+
+
+    /* font-family: 'Times new roman';
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 1000; */
+
+    
+
+    /* border-top: 10px dashed green;
+    border-left: 10px dashed green;
+    border-right: 10px dashed green; 
+    border-bottom:solid;
+
+    border-radius: 50px; 
+} */
+/* ul {
+    list-style: square;
+} */
+
+/* div::before {
+    content: '23231';
+}
+
+div::after {
+    content: '123';
+} */
